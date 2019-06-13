@@ -306,6 +306,9 @@ RETTYPE_CUL_ENG =
 		OR = {
 			culture = english
 			culture = welsh
+			culture = british_romance
+			culture = brithenig
+			culture = aenglis
 		}
 	}
 	
