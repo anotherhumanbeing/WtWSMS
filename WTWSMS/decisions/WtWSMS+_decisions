@@ -46,9 +46,9 @@ decisions = {
                     if = {
                         limit = { ROOT = { ai = no } }
                         ROOT = {
-							              chronicle = {
-								                entry = CHRONICLE_WIPNAMEFORAENGLISBAND
-								                portrait = [Prev.GetID]
+			    chronicle = {
+			        entry = CHRONICLE_WIPNAMEFORAENGLISBAND
+	                        portrait = [Prev.GetID]
                             }
                         }
                     }
