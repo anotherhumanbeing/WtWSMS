@@ -39,7 +39,7 @@ decisions = {
                     }
                 }
                 new_character = {
-                    dWIPNAMEFORAENGLISBAND = {
+                    d_WIPNAMEFORAENGLISBAND = {
                         grant_title = PREV
                     }
                     set_defacto_liege = ROOT
