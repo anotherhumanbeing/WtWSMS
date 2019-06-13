@@ -3569,7 +3569,7 @@ latin = {
 			Burchrd_Bouchard Braetyn_Britannicus Cearl_Charles Cenræl_Cornelius Cenræd_Konrad Craev_Griffid Crov_Gruffud Ceolwulf Cerdic_Caradog Cnut_Knut Copsige
 			Cuthberht_Cuthbert Cuthræd Cynehelm Cynewulf Cytelbearn Daffyd_David Drostyn_Tristan Eadgar_Edgar Eadmund_Edmund Eadmær Eadric
 			Eadræd Eadsige Eadulf_Adolf Eadweald Eadweard Eadwig Eadwine_Edwin Eadwulf_Adolf Ealdhun Ealdmund Ealdræd Ealdwine_Alwin
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Elwulf_Elwydd Egræp_Agrippa Gegim_Decimus Gamall Gerald_Gerald Gospatric Guthfrith_Godfrey Guthmund_Gudmund Gæ_Gaius
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Éadweard_Eduardus Elwulf_Elwydd Egræp_Agrippa Gegim_Decimus Gamall Gerald_Gerald Gospatric Guthfrith_Godfrey Guthmund_Gudmund Gæ_Gaius
 			Gyrth Hacon_Hakon Harold_Harold Hæc_Secundus Hereberht_Herbert Hereweald_Hereweald Hereweard Hlothere_Lothair Hrodberht_Robert Idoe_Octavius
 			Leofric Leofweald Leofwine Maccus_Maccus Morcar_Marcus Mær_Marius Nyr_Nero Offa_Uffe Onlaf_Olaf Ordgar Orm_Orm
 			Osmund Osulf_Osulf Ole_Aulus Oswine Oswulf_Osulf Petre_Peter Rælf_Ralph Rægeneald_Reginald Scule_Skule
@@ -3580,12 +3580,12 @@ latin = {
 			Æetlryd_Ailred Ætlstan_Alstan Ætlweald_Æthelwold Ætlweard Ætlwyn_Alwin Ætlwold_Æthelwold Æwulf_Adolf Ælsandr_Alexander Ælb_Albanus
 		}
 		female_names = {
-			Agatha_Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina_Christina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth_Edith Eadhburh Eadhild Ealdgyth_Edith
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda_Gunhild Gytha_Gyda Helga_Helga Heregyth Hereswith Hextilda Hungifu Judith_Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud_Matilda Mildrith Octreda Sifflæd Sigrid_Sigrid Sæthryth Wulfflæd Wulfgifu
+			Agatha_Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Cæcilia_Cecilia Ceolflæd Cristina_Christina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Dorothy_Dorothea Eadburg Eadflæd Eadgifu Eadgyth_Edith Eadhburh Eadhild Ealdgyth_Edith
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Elinor_Eleonora Florence_Florentia Gillian Godgifu Gunhilda_Gunhild Gytha_Gyda Helga_Helga Helen_Helena Heregyth Hereswith Hextilda Hungifu Judith_Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud_Matilda Mildrith Octreda Særana_Serena Sifflæd Sigrid_Sigrid Sæthryth Vivian_Vivianus Wulfflæd Wulfgifu
 			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd_Ælflæda Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth_Æthelreda
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth_Æthelreda 
 		}
 		
 		from_dynasty_prefix = "dæ "
