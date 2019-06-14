@@ -31,11 +31,11 @@ decisions = {
                     dynasty = NONE
                     age = 30
                     attributes = {
-                        martial = 8
-                        diplomacy = 4
+                        martial = 16
+                        diplomacy = 10
                         intrigue = 2
-                        learning = 2
-                        stewardship = 2
+                        learning = 8
+                        stewardship = 12
                     }
                 }
                 new_character = {
@@ -58,6 +58,59 @@ decisions = {
         ai_will_do = {
             factor = 1
         }
+	brithenig_archers_form
+	only_playable = yes
+	is_high_prio = yes
+	potential = {
+	is_playable = yes
+	prisoner = no
+	higher_tier_than = duke
+	culture = brithenig
+	ruled_years = 10
+	NOT = { has_global_flag = brithenig_archers_founded }
+}
+
+effect = {
+    set_global_flag = brithenig_archers_founded
+    prestige = -300
+    wealth = -500
+    activate_title = { title = d_brithenigarchers status = yes }
+    hidden_tooltip = {
+        narrative_event = { id = wtwsmsplusmercenaryband.0 }
+	create_character = {
+	    random_traits = yes
+	    culture = brithenig
+	    dynasty = NONE
+	    age = 30
+	    attributes = {
+	        martial = 16
+		diplomacy = 10
+		intrigue = 14
+		learning = 2
+		stewardship = 10
+	       }
+	     }
+	     new_character = {
+	        d_brithenigarchers = {
+		     grant_title = PREV
+		}
+		set_defacto_liege = ROOT
+		if = {
+		    limit = {
+		           limit = { ROOT = { ai = no } }
+			   ROOT = {
+			        chronicle = {
+				    entry = CHRONICLE_brithenigarchers
+				    portrait = [Prev.GetID]
+				   }
+		               }
+			   }
+		       }
+		   }
+	       }
+	       ai_will_do = {
+	          factor = 1
+	       }
     }  
     
                    
