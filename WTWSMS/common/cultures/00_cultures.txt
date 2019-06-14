@@ -2728,6 +2728,20 @@ latin = {
         mat_grm_name_chance = 60
         mother_name_chance = 10
     }
+        latin_khitan = { # (currently WIP) Cathayan from this mega campaign: https://forum.paradoxplaza.com/forum/index.php?threads/without-honor-a-khitan-image-heavy-megacampaign.1028216/
+	         graphical_culture = { latingfx frankishgfx }
+		 alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.0 0.51 1.02 }
+		
+		male_names =
+		Aboi_Aboji Adam Ampreye_Humphrey Amedeye_Amadeus Anselm Ardru_Arthur Ayesander_Alexander Bishe_Bishe Biguete Charles_Charles Cemrid_Kermit Censeye_Kenzai Ceyeryn_Kiran Chetak Dashi Edru_Idris Elfreye_Alfred Eyelyn_Alan Jeyn_Jing Jev_Geoffrey Johanney_John Khan
+		Macis_Mace Marcus_Marcus Miceyel_Michael Nicoleye_Nicholas Othair_Uther Petreye_Peter Robert_Robert Roger_Roger Wolila Tarin Tomas_Thomas Victor
 	gothi = { # Placeholder for mixed culture that emerged in Hispania following councils of Toldeo
 		graphical_cultures = { southerngfx mediterraneangfx }
 		alternate_start = {
@@ -2768,7 +2782,7 @@ latin = {
 
 		modifier = default_culture_modifier
 	}
-	Hispani = { # submod culture generic verison of gothi
+	hispani = { # submod culture generic verison of gothi
                   graphical_cultures = { southerngfx mediterraneangfx }
 		alternate_start = {
 			OR = {
