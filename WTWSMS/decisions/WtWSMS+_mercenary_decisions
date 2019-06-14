@@ -19,7 +19,7 @@ decisions = {
         }
         
         effect = {
-            set_global_flag = aenglis_mercenary_band_formed
+            set_global_flag = aenglis_band_formed
             prestige = -300
             wealth = -500
             activate_title = { title = d_aenglisband status = yes }
