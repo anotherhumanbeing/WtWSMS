@@ -408,6 +408,7 @@ RETTYPE_CUL_FRANK_NOR_GER =
 			culture = breton
 			culture = hispani
 			culture = gothi
+			culture = latin_khitan
 		}
 	}
 	
