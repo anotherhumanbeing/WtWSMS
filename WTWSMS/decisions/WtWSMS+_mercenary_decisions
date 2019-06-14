@@ -1,6 +1,6 @@
 decisions = {
     
-    aenglis_mercenary_band_found = {
+    aenglis_band_form = {
         only_playable = yes
         is_high_prio = yes
         potential = {
@@ -9,7 +9,7 @@ decisions = {
             higher_tier_than = duke
             culture = aenglis
             ruled_years = 10
-            NOT = { has_global_flag = aenglis_mercenary_band_founded }
+            NOT = { has_global_flag = aenglis_band_formed }
         }
         
         allow = { 
@@ -19,7 +19,7 @@ decisions = {
         }
         
         effect = {
-            set_global_flag = aenglis_mercenary_band_founded
+            set_global_flag = aenglis_mercenary_band_formed
             prestige = -300
             wealth = -500
             activate_title = { title = d_aenglisband status = yes }
@@ -69,7 +69,7 @@ decisions = {
             higher_tier_than = duke
             culture = brithenig
             ruled_years = 10
-            NOT = { has_global_flag = brithenig_archers_founded }
+            NOT = { has_global_flag = brithenig_archers_formed }
         }
         
         allow = { 
@@ -79,7 +79,7 @@ decisions = {
         }
         
         effect = {
-            set_global_flag = brithenig_archers_founded
+            set_global_flag = brithenig_archers_formed
             prestige = -300
             wealth = -500
             activate_title = { title = d_brithenigarchers status = yes }
