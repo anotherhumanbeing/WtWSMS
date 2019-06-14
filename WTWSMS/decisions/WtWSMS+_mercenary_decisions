@@ -22,7 +22,7 @@ decisions = {
             set_global_flag = aenglis_mercenary_band_founded
             prestige = -300
             wealth = -500
-            activate_title = { title = d_WIPNAMEFORAENGLISBAND status = yes }
+            activate_title = { title = d_aenglisband status = yes }
             hidden_tooltip = {
                 narrative_event = { id = wtwsmsplusmercenaryband.0 }
                 create_character = {
@@ -47,7 +47,7 @@ decisions = {
                         limit = { ROOT = { ai = no } }
                         ROOT = {
 			    chronicle = {
-			        entry = CHRONICLE_WIPNAMEFORAENGLISBAND
+			        entry = CHRONICLE_aenglisband
 	                        portrait = [Prev.GetID]
                             }
                         }
