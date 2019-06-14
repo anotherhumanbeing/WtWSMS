@@ -111,7 +111,7 @@ decisions = {
 	    ai_will_do = {
 	        factor = 1
 	    }
-    }  
+      }
     
                    
             
