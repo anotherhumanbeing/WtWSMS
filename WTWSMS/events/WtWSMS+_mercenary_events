@@ -1,0 +1,81 @@
+############################################
+#
+#
+# When the world stopped making sense +
+# - MERCENARY Events
+# DO NOT USE IDS 1 - 10 
+#-----------------------------
+# Reserved for mercenary founding decisions
+############################################
+
+#
+# Author -  Pompey (PompeyPharsallus)
+#
+
+namespace = wtwsmsplusmercenaryband
+
+############################################
+#
+# Aenglis Band - FOUNDED
+#
+############################################
+
+# [ON FORMING AENGLIS BAND] 
+
+narrative_event = { 
+    id = wtwsmsplusmercenaryband.0
+    title = wtwsmsplusmercenaryband.0.title
+    desc = wtwsmsplusmercenaryband.0.desc
+    picture = GFX_knights_melee_battle_altaic
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        prestige = 100
+    }
+    
+    option = {
+        name = wtwsmsplusmercenaryband.0.a
+        add_artifact = wip_name_for_aenglis_artifact
+        new_artifact = {
+			      set_creation_date = 1.1.1
+        }
+    }
+}
+
+############################################
+#
+# Brithenig Archers - FOUNDED
+#
+############################################
+
+# [ON FORMING Brithenig Archers]
+
+narrative_event = { 
+    id = wtwsmsplusmercenaryband.1
+    title = wtwsmsplusmercenaryband.1.title
+    desc = wtwsmsplusmercenaryband.1.desc
+    picture = GFX_khitan_invasion
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        prestige = 100
+    }
+    
+    option = {
+        name = wtwsmsplusmercenaryband.1.a
+        add_artifact = wip_name_for_brithenig_artifact
+        new_artifact = {
+			      set_creation_date = 1.1.1
+        }
+    }
+}
+
+
+
+
+        
+    
+    
+ 
