@@ -31,9 +31,9 @@ the_horseshoe_of_bukefal = {    #Horseshoe of alexander the great's horse
     martial = 1
     monthly_character_prestige = 0.5
     command_modifier = {
-		light_cavalry = 0.05
+  	    light_cavalry = 0.05
         speed = 0.05
-	}
+    }
     quality = 5
     stacking = no
     picture = "currently_making_gfx"
