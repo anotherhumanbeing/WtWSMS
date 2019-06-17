@@ -1,0 +1,39 @@
+######################################
+#
+# MERCENARY ARTIFACTS
+#
+# - Author Pompey (PompeyPharsullus)
+#
+#
+######################################
+
+wip_name_for_aenglis_artifact = {
+    martial = 1
+    combat_rating = 10
+    quality = 3
+    flags = { combat_weapon }
+    stacking = no
+    picture = "GFX_battleaxe_aenglis"
+    slot = weapon
+}
+
+long_bow = {
+    martial = 1
+    combat_rating = 10
+    quality = 3
+    flags = { combat_weapon }
+    stacking = no
+    picture = "GFX_eagle"
+    slot = weapon
+}
+
+the_horseshoe_of_bukefal = {    #Horseshoe of alexander the great's horse
+    martial = 3
+    combat_rating = 15
+    quality = 5
+    stacking = no
+    picture = "currently_making_gfx"
+    slot = neck
+}
+
+
