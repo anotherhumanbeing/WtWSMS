@@ -1,0 +1,15 @@
+phillip_ii_grave = {
+    IF = {
+        culture = macedonian
+        monthly_character_prestige = 10
+        command_modifier = {
+            movement = 0.5
+            damage = 0.1
+            heavy_infantry = 0.5
+            light_infantry = 0.5
+        }
+    }
+    quality = 5 
+    stacking = no
+    picture = "GFX_stone_tablet_with_symbols"
+}
