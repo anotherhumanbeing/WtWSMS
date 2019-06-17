@@ -25,7 +25,7 @@ character_event = {
     }
     
     immediate = {
-        set_character_flag = searchphillipgrave
+        set_character_flag = placeholder
     }
     
     mean_time_to_happen = {
@@ -37,5 +37,20 @@ character_event = {
         wealth = -500
         prestige = -500
         piety = -500
+        hidden_tooltip = {
+            set_character_flag = searching_for_phillip_grave
+            clr_character_flag = { flag = placeholder }
+        }
     }
-}
+    
+    option = {
+        name = greekflavor.0.b
+        prestige = -150
+        piety = 150
+        hidden_tooltip = {
+            clr_character_flag = { flag = placeholder }
+        }
+    }    
+}    
+
+
