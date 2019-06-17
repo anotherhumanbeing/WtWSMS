@@ -14,7 +14,7 @@ character_event = {
     id = greekflavor.0
     title = greekflavor.0.title
     desc = greekflavor.0.desc
-    picture = GFX_Ruler_listening_to_supplicant
+    picture = GFX_ruler_listening_to_supplicant
     
     trigger = {
         culture = macedonian
@@ -32,18 +32,18 @@ character_event = {
         months = 6
     }
     
-    option = {
+    option = {                          # Start the search with great initial expenses                                      
         name = greekflavor.0.a
         wealth = -500
         prestige = -500
         piety = -500
         hidden_tooltip = {
-            set_character_flag = searching_for_phillip_grave
+            set_character_flag = searching_for_phillip_grave1
             clr_character_flag = { flag = placeholder }
         }
     }
     
-    option = {
+    option = {                          #  Your Priests Are Against Searching for the grave of a pagan hero
         name = greekflavor.0.b
         prestige = -150
         piety = 150
@@ -51,6 +51,47 @@ character_event = {
             clr_character_flag = { flag = placeholder }
         }
     }    
+}
+
+# Phillip 2 Grave Search Part 2
+character_event = {
+    id = greekflavor.1
+    title = greekflavor.1.title
+    desc = greekflavor.1.desc
+    picture = GFX_skyrim_forest_greek
+    
+    trigger = {
+        had_character_flag = { flag = searching_for_phillip_grave1 months = 6 }
+    }
+    
+    immediate = {
+        clr_character_flag = { flag = searching_for_phillip_grave1 }
+        set_character_flag = searching_for_phillip_grave2
+    }
+    
+    mean_time_to_happen = {
+        months = 6
+    }
+    
+    option = {                  # Continue the search at your own expense
+        name = greekflavor.1.a
+        wealth = -300
+    }
+    
+    option = {                  # Listen to priests and cancel search
+        name = greekflavor.1.b
+        prestige = -150
+        piety = 150
+        hidden_tooltip = {
+            clr_character_flag = { flag = searching_for_phillip_grave2
+        }
+    }
 }    
+    
+    
+    
+    
+ 
+    
 
 
