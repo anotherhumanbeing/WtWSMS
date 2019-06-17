@@ -36,7 +36,7 @@ narrative_event = {
     
     option = {
         name = wtwsmsplusmercenaryband.0.a
-        add_artifact = wip_name_for_aenglis_artifact
+        add_artifact = battleaxe_aenglis
         new_artifact = {
 			      set_creation_date = 1.1.1
         }
