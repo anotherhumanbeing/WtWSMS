@@ -28,8 +28,12 @@ long_bow = {
 }
 
 the_horseshoe_of_bukefal = {    #Horseshoe of alexander the great's horse
-    martial = 3
-    combat_rating = 15
+    martial = 1
+    monthly_character_prestige = 0.5
+    command_modifier = {
+		light_cavalry = 0.05
+        speed = 0.05
+	}
     quality = 5
     stacking = no
     picture = "currently_making_gfx"
