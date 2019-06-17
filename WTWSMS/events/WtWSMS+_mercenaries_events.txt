@@ -65,7 +65,7 @@ narrative_event = {
     
     option = {
         name = wtwsmsplusmercenaryband.1.a
-        add_artifact = wip_name_for_brithenig_artifact
+        add_artifact = long_bow
         new_artifact = {
 			      set_creation_date = 1.1.1
         }
