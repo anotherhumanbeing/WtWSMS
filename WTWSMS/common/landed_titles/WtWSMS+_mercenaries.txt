@@ -1,0 +1,77 @@
+#WTWSMS + MERCENARY BANDS
+
+d_aenglisband = {
+    
+    color = { 47 79 79 }
+    color2 = { 128 128 128 }
+    
+    graphical_culture = { englishgfx }
+    
+    culture = aenglis
+    
+    mercenary = yes
+    
+    title = "AENGLIS_BAND_TITLE"
+    foa = "CAPTAIN_FOA"
+    
+    #Always exists
+    landless = yes
+    
+    # Cannot be held as a secondary title
+	primary = yes
+    
+    strength_growth_per_century = 2
+    
+    mercenary_type = aenglis_band_composition
+}
+
+d_brithenigarchers = {
+    
+    color = { 54 79 79 }
+    color2 = { 122 123 110 }
+    
+    graphical_culture = { celticgfx }
+    
+    culture = brithenig
+    
+    mercenary = yes
+    
+    title = "BRITHENIG_ARCHERS_TITLE"
+    foa = "CAPTAIN_FOA"
+    
+    #Always exists
+    landless = yes
+    
+    # Cannot be held as a secondary title
+	primary = yes
+    
+    strength_growth_per_century = 2
+    
+    mercenary_type = brithenig_archers_composition
+}
+
+d_alexanderscompanions = {
+    
+    color = { 54 29 39 }
+    color2 = { 125 100 110 }
+    
+    graphical_culture = { celticgfx }
+    
+    culture = macedonian
+    
+    mercenary = yes
+    
+    title = "ALEXANDERS_COMPANIONS_TITLE"
+    foa = "CAPTAIN_FOA"
+    
+    #Always exists
+    landless = yes
+    
+    # Cannot be held as a secondary title
+	primary = yes
+    
+    strength_growth_per_century = 2
+    
+    mercenary_type = alexanders_companions_composition
+} 
+
