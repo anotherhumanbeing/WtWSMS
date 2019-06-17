@@ -1,7 +1,7 @@
 ####################################
 #
 #  greek flavor events
-# 0 - 5 phillip 2 
+# 0 - 4 phillip 2 
 #
 # Author - Pompey (PompeyPharsallus
 #
@@ -96,7 +96,7 @@ character_event = {
     picture = GFX_ruler_listening_to_supplicant
     
     trigger = {
-        had_character_flag = { flag = searching_for_phillip_grave2 months = 6 }
+        had_character_flag = { flag = searching_for_phillip_grave3 months = 6 }
     }
     
     immediate = {
@@ -117,13 +117,74 @@ character_event = {
     }
     
     option = {
-        name = greekflvaor.2b
+        name = greekflvaor.2.b
         prestige = -750
         hidden_tooltip = { 
             clr_character_flag = { flag = searching_for_phillip_grave3 }
         }
     }
-}    
+}
+
+# Phillip 2 Grave Search Part 4
+character_event = {
+    id = greekflavor.3
+    title = greekflavor.3.title
+    desc = greekflavor.3.desc
+    picture = GFX_belisarius
+    
+    trigger = {
+        had_character_flag = { flag = searching_for_phillip_grave3 months = 6 }
+    }
+    
+    immediate = {
+        clr_character_flag = { flag = searching_for_phillip_grave3 }
+        set_character_flag = searching_for_phillip_grave4
+    }
+    
+    mean_time_to_happen = {
+        months = 6
+    }
+    
+    option = { 
+        name = greekflavor.3.a
+        narrative_event = { id = greekflavor.4 }
+    }
+}
+
+# Phillip 2 Grave Search Part 5
+narrative_event = {
+    id = greekflavor.4
+    title = greekflavor.4.title
+    desc = greekflavor.4.desc
+    picture = GFX_belisarius
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        clr_character_flag = { flag = searching_for_phillip_grave4 }
+    }
+    
+    option = {
+        name = greekflavor.4.a
+         add_artifact = phillip_ii_grave
+         new_artifact = {
+			      set_creation_date = 1.1.1
+         }
+    }
+}
+    
+   
+    
+    
+    
+   
+
+
+
+
+
+
+
     
     
     
