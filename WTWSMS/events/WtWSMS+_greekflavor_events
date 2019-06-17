@@ -1,0 +1,41 @@
+####################################
+#
+#  greek flavor events
+# 0 - 10 phillip 2 
+#
+# Author - Pompey (PompeyPharsallus
+#
+####################################
+
+namespace = greekflavor
+
+# Phillip 2 Grave Search Part 1
+character_event = {
+    id = greekflavor.0
+    title = greekflavor.0.title
+    desc = greekflavor.0.desc
+    picture = GFX_Ruler_listening_to_supplicant
+
+    trigger = {
+        culture = macedonian
+        culture = greek
+        wealth = 1000
+        prestige = 3000
+        piety = 750
+    }
+
+    immediate = {
+        set_character_flag = searchphillipgrave
+    }
+
+    mean_time_to_happen = {
+        months = 6
+    }
+
+    option = {
+        name = greekflavor.0.a
+        wealth = -500
+        prestige = -500
+        piety = -500
+    }
+}
