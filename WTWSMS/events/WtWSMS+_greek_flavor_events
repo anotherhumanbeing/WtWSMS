@@ -86,7 +86,51 @@ character_event = {
             clr_character_flag = { flag = searching_for_phillip_grave2
         }
     }
+}
+
+# Phillip 2 Grave Search Part 3
+character_event = {
+    id = greekflavor.2
+    title = greekflavor.2.title
+    desc = greekflavor.2.desc
+    picture = GFX_ruler_listening_to_supplicant
+    
+    trigger = {
+        had_character_flag = { flag = searching_for_phillip_grave2 months = 6 }
+    }
+    
+    immediate = {
+        clr_character_flag = { flag = searching_for_phillip_grave2 }
+        set_character_flag = searching_for_phillip_grave3
+    }
+    
+    mean_time_to_happen = {
+        months = 6
+    }
+    
+    option = {
+        name = greekflavor.2.a
+        prestige = 500
+        490 = {
+            add_province_modifier = { name = excavating_phillip_ii_grave }
+        }
+    }
+    
+    option = {
+        name = greekflvaor.2b
+        prestige = -750
+        hidden_tooltip = { 
+            clr_character_flag = { flag = searching_for_phillip_grave3 }
+        }
+    }
 }    
+    
+    
+    
+    
+    
+
+
     
     
     
