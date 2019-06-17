@@ -71,3 +71,32 @@ narrative_event = {
         }
     }
 }
+
+############################################
+#
+# Alexanders Companions - FOUNDED
+#
+############################################
+
+# [ON FORMING Alexanders Companions]
+
+narrative_event = { 
+    id = wtwsmsplusmercenaryband.2
+    title = wtwsmsplusmercenaryband.2.title
+    desc = wtwsmsplusmercenaryband.2.desc
+    picture = GFX_macedonian_calvary
+    
+    is_triggered_only = yes
+    
+    immediate = {
+        prestige = 100
+    }
+    
+    option = {
+        name = wtwsmsplusmercenaryband.2.a
+        add_artifact = the_horseshoe_of_bukefal
+        new_artifact = {
+			      set_creation_date = 1.1.1
+        }
+    }
+}
