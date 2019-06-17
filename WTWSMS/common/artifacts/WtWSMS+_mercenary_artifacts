@@ -5,9 +5,7 @@
 # - Author Pompey (PompeyPharsullus)
 #
 #
-######################################
-
-wip_name_for_aenglis_artifact = {
+battleaxe_aenglis = {
     martial = 1
     combat_rating = 10
     quality = 3
@@ -36,7 +34,7 @@ the_horseshoe_of_bukefal = {    #Horseshoe of alexander the great's horse
     }
     quality = 5
     stacking = no
-    picture = "currently_making_gfx"
+    picture = "GFX_the_horseshoe_of_bukefal"
 }
 
 
