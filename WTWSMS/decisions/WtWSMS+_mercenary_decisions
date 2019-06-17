@@ -1,0 +1,183 @@
+decisions = {
+    
+    aenglis_band_form = {
+        only_playable = yes
+        is_high_prio = yes
+        potential = {
+            is_playable = yes
+            prisoner = no
+            higher_tier_than = duke
+            culture = aenglis
+            ruled_years = 10
+            NOT = { has_global_flag = aenglis_band_formed }
+        }
+        
+        allow = { 
+            war = no
+            has_regent = no
+            NOT = { trait = in_hiding }
+        }
+        
+        effect = {
+            set_global_flag = aenglis_band_formed
+            prestige = -300
+            wealth = -500
+            activate_title = { title = d_aenglisband status = yes }
+            hidden_tooltip = {
+                narrative_event = { id = wtwsmsplusmercenaryband.0 }
+                create_character = {
+                    random_traits = yes
+                    culture = aenglis
+                    dynasty = NONE
+                    age = 30
+                    attributes = {
+                        martial = 16
+                        diplomacy = 10
+                        intrigue = 2
+                        learning = 8
+                        stewardship = 12
+                    }
+                }
+                new_character = {
+                    d_aenglisband = {
+                        grant_title = PREV
+                    }
+                    set_defacto_liege = ROOT
+                    if = {
+                        limit = { ROOT = { ai = no } }
+                        ROOT = {
+			    chronicle = {
+			        entry = CHRONICLE_aenglisband
+	                        portrait = [Prev.GetID]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    brithenig_archers_form = {
+        only_playable = yes
+        is_high_prio = yes
+        potential = {
+            is_playable = yes
+            prisoner = no
+            higher_tier_than = duke
+            culture = brithenig
+            ruled_years = 10
+            NOT = { has_global_flag = brithenig_archers_formed }
+        }
+        
+        allow = { 
+            war = no
+            has_regent = no
+            NOT = { trait = in_hiding }
+        }
+        
+        effect = {
+            set_global_flag = brithenig_archers_formed
+            prestige = -300
+            wealth = -500
+            activate_title = { title = d_brithenigarchers status = yes }
+            hidden_tooltip = {
+                narrative_event = { id = wtwsmsplusmercenaryband.1 }
+                create_character = {
+                    random_traits = yes
+                    culture = brithenig
+                    dynasty = NONE
+                    age = 30
+                    attributes = {
+                        martial = 16
+                        diplomacy = 10
+                        intrigue = 14
+                        learning = 2
+                        stewardship = 10
+                    }
+                }
+                new_character = {
+                    d_brithenigarchers = {
+                        grant_title = PREV
+                    }
+                    set_defacto_liege = ROOT
+                    if = {
+                        limit = { ROOT = { ai = no } }
+                        ROOT = {
+			    chronicle = {
+			        entry = CHRONICLE_brithenigarchers
+	                        portrait = [Prev.GetID]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    alexanders_companions_form = {
+        only_playable = yes
+        is_high_prio = yes
+        potential = {
+            is_playable = yes
+            prisoner = no
+            higher_tier_than = duke
+            culture = macedonian
+            ruled_years = 10
+            NOT = { has_global_flag = alexanders_companions_formed }
+        }
+        
+        allow = { 
+            war = no
+            has_regent = no
+            NOT = { trait = in_hiding }
+        }
+        
+         effect = {
+            set_global_flag = alexanders_companions_formed
+            prestige = -300
+            wealth = -500
+            activate_title = { title = d_alexanderscompanions status = yes }
+            hidden_tooltip = {
+                narrative_event = { id = wtwsmsplusmercenaryband.2 }
+                create_character = {
+                    random_traits = yes
+                    culture = macedonian
+                    dynasty = NONE
+                    age = 30
+                    attributes = {
+                        martial = 20
+                        diplomacy = 10
+                        intrigue = 4
+                        learning = 8
+                        stewardship = 12
+                    }
+                }
+                new_character = {
+                    d_alexanderscompanions = {
+                        grant_title = PREV
+                    }
+                    set_defacto_liege = ROOT
+                    if = {
+                        limit = { ROOT = { ai = no } }
+                        ROOT = {
+			    chronicle = {
+			        entry = CHRONICLE_alexandersband
+	                        portrait = [Prev.GetID]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+   
