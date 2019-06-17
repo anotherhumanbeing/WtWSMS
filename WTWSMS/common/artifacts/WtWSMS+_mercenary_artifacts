@@ -33,7 +33,6 @@ the_horseshoe_of_bukefal = {    #Horseshoe of alexander the great's horse
     quality = 5
     stacking = no
     picture = "currently_making_gfx"
-    slot = neck
 }
 
 
