@@ -4,7 +4,7 @@
 aenglis_band_form;Found the Aenglis Band;;;;;;;;;;;;;x
 aenglis_band_form_desc;Found the Aenglis Band, a band of feriocous fighters.;;;;;;;;;;;;;x
 brithenig_archers_form;Found the Brithenig Archers.;;;;;;;;;;;;;x
-brithenig_archers_form_desc;Found the Brithenig Archers, the finest marksmen money can buy.;;;;;;;;;;;;;x;;;;;;;;;;;;;x
+brithenig_archers_form_desc;Found the Brithenig Archers, the finest marksmen money can buy.;;;;;;;;;;;;;x
 alexanders_companions_form;Found Alexanders Companions;;;;;;;;;;;;;x
 alexanders_companions_form_desc;Found Alexanders Companions, it is said that they follow Alexanders The Great's Companion Calvary's customs religiously;;;;;;;;;;;;;x
 # --------------------------------------------------------------------------------------------------------------------------------------
