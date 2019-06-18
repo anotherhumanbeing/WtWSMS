@@ -1,0 +1,21 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Mercenary Decisions + Mercenary Chronicles
+aenglis_band_form;Found the Aenglis Band;;;;;;;;;;;;;x
+aenglis_band_form_desc;Found the Aenglis Band, a band of feriocous fighters.;;;;;;;;;;;;;x
+brithenig_archers_form;Found the Brithenig Archers.;;;;;;;;;;;;;x
+brithenig_archers_form_desc;Found the Brithenig Archers, the finest marksmen money can buy.;;;;;;;;;;;;;x;;;;;;;;;;;;;x
+alexanders_companions_form;Found Alexanders Companions;;;;;;;;;;;;;x
+alexanders_companions_form_desc;Found Alexanders Companions, it is said that they follow Alexanders The Great's Companion Calvary's customs religiously;;;;;;;;;;;;;x
+CHRONICLE_aenglis_band; and founded the great Aenglis Band.;;;;;;;;;;;;;x
+CHRONICLE_brithenig_archers; and founded the marksmen, Brithenig Archers.;;;;;;;;;;;;;x
+CHRONICLE_alexanders_companions; and founded the "quick as a wink" horsemen, Alexander's Companions.;;;;;;;;;;;;;x
+#Mercenary Events
+wtwsmsplusmercenaryband.0.title;The best band to be found;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.0.desc;After the culture just recently being formed, a zealot of the culture has decided to dedicate time and money to founding a mercenary band on the pure basis of preserving the culture!;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.0.a;Glory to all Aenglis!;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.1.title;Shoot for the starts;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.1.desc;After the culture just recently being formed, a zealot of the culture has decided to dedicate time and money to founding a mercenary band on the pure basis of preserving the culture!;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.1.a;Glory to all Brithenig!;;;;;;;;;;;;;x
+
+
+
