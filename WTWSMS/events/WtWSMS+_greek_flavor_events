@@ -22,6 +22,9 @@ narrative_event = {
         wealth = 1000
         prestige = 3000
         piety = 750
+	has_landed_title = {
+	    d_thessalonika
+	}
     }
     
     immediate = {
