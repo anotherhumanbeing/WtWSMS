@@ -1,4 +1,5 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
 #Mercenary Decisions + Mercenary Chronicles
 aenglis_band_form;Found the Aenglis Band;;;;;;;;;;;;;x
 aenglis_band_form_desc;Found the Aenglis Band, a band of feriocous fighters.;;;;;;;;;;;;;x
@@ -9,6 +10,7 @@ alexanders_companions_form_desc;Found Alexanders Companions, it is said that the
 CHRONICLE_aenglis_band; and founded the great Aenglis Band.;;;;;;;;;;;;;x
 CHRONICLE_brithenig_archers; and founded the marksmen, Brithenig Archers.;;;;;;;;;;;;;x
 CHRONICLE_alexanders_companions; and founded the "quick as a wink" horsemen, Alexander's Companions.;;;;;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
 #Mercenary Events
 wtwsmsplusmercenaryband.0.title;The best band to be found;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.0.desc;After the culture just recently being formed, a zealot of the culture has decided to dedicate time and money to founding a mercenary band on the pure basis of preserving the culture!;;;;;;;;;;;;;x
@@ -16,6 +18,12 @@ wtwsmsplusmercenaryband.0.a;Glory to all Aenglis!;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.1.title;Shoot for the starts;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.1.desc;After the culture just recently being formed, a zealot of the culture has decided to dedicate time and money to founding a mercenary band on the pure basis of preserving the culture!;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.1.a;Glory to all Brithenig!;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.2.title;Companion Calvary;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.2.desc;After many defeats and their great empire collapsing. A fanatical supporter of Alexander "The Great" has decided to found a mercenary band dedicated to the old ways.;;;;;;;;;;;;;x
+wtwsmsplusmercenaryband.2.a;There is a reason they call him great...;;;;;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
+#Mercenary Titles 
+
 
 
 
