@@ -10,7 +10,7 @@
 namespace = greekflavor
 
 # Phillip 2 Grave Search Part 1
-character_event = {
+narrative_event = {
     id = greekflavor.0
     title = greekflavor.0.title
     desc = greekflavor.0.desc
