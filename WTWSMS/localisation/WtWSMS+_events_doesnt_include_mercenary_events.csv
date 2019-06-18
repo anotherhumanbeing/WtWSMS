@@ -1,0 +1,22 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
+# Greek flavor events
+greekflavor.0.title;A Commoner Enters The Throne Room...;;;;;;;;;;;;;x
+greekflavor.0.desc;A commoner enters the throne room. He speaks what seems like gibberish to you, in the maelstrom of words you can make out "Philip 2nd" and "Tombstone" could this simple commoner be speaking of phillip the 2nd's tombstone? Your preists beg you not to listen to the heretical commoner as he speaks of a pagan.;;;;;;;;;;;;;x
+greekflavor.0.a;I must question him further.;;;;;;;;;;;;;x
+greekflavor.0.b;Perhaps the preists are right...;;;;;;;;;;;;;x
+greekflavor.1.title;The Beginning Or The End?;;;;;;;;;;;;;x
+greekflavor.1.desc;After following the commoners directions, he leads you into a forest with a shore at it's edge. He says that it is near here but cannot specify. The preists beg you to turn back now, as even if we did find it, it is only a memory of a long forgetten pagan hero.;;;;;;;;;;;;;x
+greekflavor.1.a;Bah! I never liked preists anyway, UP THE SEARCH'S BUDGEST!;;;;;;;;;;;;;x
+greekflavor.1.b;I only hope it is not too late now for salvation!;;;;;;;;;;;;;x
+greekflavor.2.title;It Is Found!;;;;;;;;;;;;;x
+greekflavor.2.desc;It is within my grasp! News just came down from the search masters that something they believe is the tomb of Philip The 2nd. The problem is that it will take a significant amount of manpower to excavate it, but they assured me that if I were to commit to this, the tombstone will be mine.;;;;;;;;;;;;;x
+greekflavor.2.a;I dont care, just bring me my tombstone!;;;;;;;;;;;;;x
+greekflvaor.2.b;Perhaps I have gone to far, besides I need my men elsewhere;;;;;;;;;;;;;x
+greekflavor.3.title;The Tombstone Is Presented;;;;;;;;;;;;;x
+greekflavor.3.desc;The tombstone has been presented to me, it looks almost as perfect as it did in my dreams. I can see the enscriptions. IT IS MINE.;;;;;;;;;;;;;x
+greekflavor.3.a;Finally.....;;;;;;;;;;;;;x
+greekflavor.4.title;The Artifact;;;;;;;;;;;;;x
+greekflavor.4.desc;The tombstone has been added to my royal treasury, I still cannot believe I have it.
+greekflavor.4.a;I can feel a small part of a large empire within my hands.
+# --------------------------------------------------------------------------------------------------------------------------------------
