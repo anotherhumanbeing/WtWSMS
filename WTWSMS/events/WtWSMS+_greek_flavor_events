@@ -25,6 +25,9 @@ narrative_event = {
 	has_landed_title = {
 	    d_thessalonika
 	}
+	NOT = {
+	    has_global_flag = { flag = phillip_ii_grave_excavated }
+	}
     }
     
     immediate = {
@@ -165,6 +168,7 @@ narrative_event = {
     
     immediate = {
         clr_character_flag = { flag = searching_for_phillip_grave4 }
+	set_global_flag = phillip_ii_grave_excavated
     }
     
     option = {
