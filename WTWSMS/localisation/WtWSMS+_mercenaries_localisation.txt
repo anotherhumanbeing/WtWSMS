@@ -24,7 +24,15 @@ wtwsmsplusmercenaryband.2.title;Companion Calvary;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.2.desc;After many defeats and their great empire collapsing. A fanatical supporter of Alexander "The Great" has decided to found a mercenary band dedicated to the old ways.;;;;;;;;;;;;;x
 wtwsmsplusmercenaryband.2.a;There is a reason they call him great...;;;;;;;;;;;;;x
 # --------------------------------------------------------------------------------------------------------------------------------------
-#Mercenary Titles 
+#Mercenary Titles
+d_aenglisband;Aenglis Band;;;;;;;;;;;;;x
+AENGLIS_BAND_TITLE;Warchief;;;;;;;;;;;;;x
+d_brithenigarchers;Brithenig Archers;;;;;;;;;;;;;x
+BRITHENIG_ARCHERS_TITLE;Marksman;;;;;;;;;;;;;x
+d_alexanderscompanions;Alexanders Companions;;;;;;;;;;;;;x
+ALEXANDERS_COMPANIONS_TITLE;Diádokhoi;;;;;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
