@@ -82,6 +82,7 @@ character_event = {
     option = {                  # Continue the search at your own expense
         name = greekflavor.1.a
         wealth = -300
+	piety = -250
     }
     
     option = {                  # Listen to priests and cancel search
