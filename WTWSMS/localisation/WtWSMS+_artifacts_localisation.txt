@@ -1,15 +1,15 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 # --------------------------------------------------------------------------------------------------------------------------------------
 # Mercenary Artifacts
-battleaxe_aenglis;Silver Battleaxe;;;;;;;;;x
-battleaxe_aenglis_desc;A silver battleaxe made out of the finest silver the smith could find.;;;;;;;;;x
-long_bow;Long Bow;;;;;;;;;x
-long_bow_desc;A long bow styled in the image of the ones the old britons used.;;;;;;;;;x
-the_horseshoe_of_bukefal;The Horseshoe Of Bukefal;;;;;;;;;x
-the_horseshoe_of_bukefal_desc;An ancient horseshoe, you can faintly see the words bukefal enscribed into the stone;;;;;;;;;x
+battleaxe_aenglis;Silver Battleaxe;;;;;;;;;;;;;x
+battleaxe_aenglis_desc;A silver battleaxe made out of the finest silver the smith could find.;;;;;;;;;;;;;x
+long_bow;Long Bow;;;;;;;;;;;;;x
+long_bow_desc;A long bow styled in the image of the ones the old britons used.;;;;;;;;;;;;;x
+the_horseshoe_of_bukefal;The Horseshoe Of Bukefal;;;;;;;;;;;;;x
+the_horseshoe_of_bukefal_desc;An ancient horseshoe, you can faintly see the words bukefal enscribed into the stone;;;;;;;;;;;;;x
 # --------------------------------------------------------------------------------------------------------------------------------------
 # Greek Flavor Artifacts
-phillip_ii_grave;Philip The 2nd's tombstone;;;;;;;;;x
-phillip_ii_grave_desc;A gold and silver engraves tablet with the macedonian sun enbalmed into centre. It looks as though it was made yesterday.;;;;;;;;;x
+phillip_ii_grave;Philip The 2nd's tombstonev
+phillip_ii_grave_desc;A gold and silver engraves tablet with the macedonian sun enbalmed into centre. It looks as though it was made yesterday.;;;;;;;;;;;;;x
 
 
