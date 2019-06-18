@@ -3380,6 +3380,134 @@ latin = {
      
         modifier = default_culture_modifier
     }
+	
+	brithenig = {
+		graphical_cultures = { celticgfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+     
+	color = { 0.45 0.75 0.6 }
+
+	    male_names = {
+			Artorius_Artorius Aleisandr_Alexander Arthmail Artbeau Avitor Adda_Adam Arthwr_Arthur
+			Antoin_Anthony Awstin_August Alan_Alan Arthen_Artemius Argad_Arcadius Andreas_Andrew
+			Beliatus Bellicus Bodeni Butu Budic Barrivent Brohcmail Briamail Bodvoc Brivitas
+			Comitinus Clotual Cingualan Costenhin_Constantine Carol_Charles Cuuris Conetoc Cataman 
+			Cingen Cingal Caraethag Cristian_Christian Cynedd Cwrig_Cyriacus
+			Dumnovall Donal Dewidd_David Dubric Drystin Dunat
+			Enestinus Erbin_Urban Eirlan_Aurelianus Emreis_Ambrose Enabarr Elcu Erchyl_Hercules Elfoddew
+			Eudaf_Octavius
+			Gleuissicg Gion_John Guoillauc Guriat Gelhig Garfan Geory_George Girallt Garmon_German
+			Gwalwan Gwethiern_Vortigern Gwydion Gregor_Gregory Gereint_Gerontius Glywys_Claudius
+			Gioffri_Godfrey
+			Hewel
+			Iewan_John Idnert Ioruert Icorig Iago_Jacob Ieroni_Jerome Iosep_Joseph
+			Lannildut Llewfelen Liuit Llawreint_Laurence Luc_Luke
+			Maglorius Map Motius Muconius Mawr Medrad Margiteut Maguohen Maccodechet Madag Maelcun Marc_Marcus
+			Mathew_Matthew Merthin_Martin Mewrig_Maurice Merddin Migangel_Michael Manuel_Manuel Morgan Magimos
+			Nectovelius Nigol_Nocholas Nennius
+			Owain_Owain
+			Pedr_Peter Pawl_Paul Padrig_Patrick Philip_Philip Pascen Pelagius_Pelagius
+			Quenataug Quenuendan
+			Rhyssin Rhoberth_Robert Riuallaun Riderch Res Rialobran Rhigardd
+			Senicianus Senorig Solinus Suagrius Stinian_Justinianus Serigi_Sergius Sandde_Sancho
+			Tomos_Thomas Tigern Totaval Trallon Turpill Tutbulc Tegid_Tacitus Timothew_Timothy Teilo
+			Tewdos_Theodosius
+			Urien_Urbgenius
+			Vrochan Virnin Vecrec Voteporig Vendumaglos Veracius
+			Ysteffan_Stephen Ystin_Justin Yuil_Julius
+	    }
+	    female_names = {
+			Avitoria Arienrhod Alis_Alice Anna_Anna Avellina Artoria
+			Buddega_Victoria Betrys_Beatrice Blodwen
+			Cuniovenda Caroleth Catren Cristen_Christina
+			Docillina Diseta Delyth
+			Elen_Helen Efa_Eve Elaine_Elaine
+			Ffridd_Faith
+			Gian_Jane Gianeth_Janet Greid Guinevere Gwen
+			Huctia Hancarate Hawise
+			Iseullt Iogos Isabel_Elisabeth
+			Lollia Lucilla
+			Mair_Mary Mallt_Matilda Maryared_Margaret
+			Nest
+			Ourdolat
+			Seniciana Sarra_Sarah Siwan_Joan Susanna_Susana Satiada Sibyl_Sibylla
+			Tancogeistla Tegida Tegan
+			Vrocata Verica Verctissa Viola_Yolanda
+			Yuilia_Julia
+	    }
+	    dukes_called_kings = yes
+
+	    from_dynasty_prefix = "di "
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+	    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 15
+		mat_grm_name_chance = 45
+		mother_name_chance = 5
+
+	    modifier = default_culture_modifier
+    }
+}
+        aenglis = { # submod culture Anglo anything (that isn't english) + romano british = aenglis
+	graphical_cultures = { englishgfx }
+		alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.34 0.48 0.24 }
+		
+		male_names = {
+			Arncytel Artr_Arthur Alb_Albus Bælf_Beowulf Bran_Bran Brandyn_Brandon Bærtwyn_Beorhtwine Bærn_Beorn
+			Burchrd_Bouchard Braetyn_Britannicus Cearl_Charles Cenræl_Cornelius Cenræd_Konrad Craev_Griffid Crov_Gruffud Ceolwulf Cerdic_Caradog Cnut_Knut Copsige
+			Cuthberht_Cuthbert Cuthræd Cynehelm Cynewulf Cytelbearn Daffyd_David Drostyn_Tristan Eadgar_Edgar Eadmund_Edmund Eadmær Eadric
+			Eadræd Eadsige Eadulf_Adolf Eadweald Eadweard Eadwig Eadwine_Edwin Eadwulf_Adolf Ealdhun Ealdmund Ealdræd Ealdwine_Alwin
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Éadweard_Eduardus Elwulf_Elwydd Egræp_Agrippa Gegim_Decimus Gamall Gerald_Gerald Gospatric Guthfrith_Godfrey Guthmund_Gudmund Gæ_Gaius
+			Gyrth Hacon_Hakon Harold_Harold Hæc_Secundus Hereberht_Herbert Hereweald_Hereweald Hereweard Hlothere_Lothair Hrodberht_Robert Idoe_Octavius
+			Leofric Leofweald Leofwine Maccus_Maccus Morcar_Marcus Mær_Marius Nyr_Nero Offa_Uffe Onlaf_Olaf Ordgar Orm_Orm
+			Osmund Osulf_Osulf Ole_Aulus Oswine Oswulf_Osulf Petre_Peter Rælf_Ralph Rægeneald_Reginald Scule_Skule
+			Sigeberht Sigehelm Sigeric Sighere Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
+			Sæxbald Sæx_Sextus Thurcytel_Torkel Træ_Tertius Tostyg_Toste Uhtræd_Uhtred Waltheof_Waltheof Werestan_Werestan Wiglaf Wihtræd_Withred
+			Wistan Wulf_Ulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Æltlfryd_Alfred Ælfsige
+			Ælfstan_Alstan Ælfwald Ælfweard Ælfwig Ælfwine_Alwin Ælle_Alwin Æthelbald Ætlbert_Albert Ætlfryth_Ethelfrith Æthelhere Æthelmar_Adémar
+			Æetlryd_Ailred Ætlstan_Alstan Ætlweald_Æthelwold Ætlweard Ætlwyn_Alwin Ætlwold_Æthelwold Æwulf_Adolf Ælsandr_Alexander Ælb_Albanus
+		}
+		female_names = {
+			Agatha_Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Cæcilia_Cecilia Ceolflæd Cristina_Christina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Dorothy_Dorothea Eadburg Eadflæd Eadgifu Eadgyth_Edith Eadhburh Eadhild Ealdgyth_Edith
+			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Elinor_Eleonora Florence_Florentia Gillian Godgifu Gunhilda_Gunhild Gytha_Gyda Helga_Helga Helen_Helena Heregyth Hereswith Hextilda Hungifu Judith_Judith
+			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud_Matilda Mildrith Octreda Særana_Serena Sifflæd Sigrid_Sigrid Sæthryth Vivian_Vivianus Wulfflæd Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd_Ælflæda Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
+			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth_Æthelreda 
+		}
+		
+		from_dynasty_prefix = "dæ "
+		bastard_dynasty_prefix = "Fitz"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+		
+		founder_named_dynasties = yes
+		
+		modifier = default_culture_modifier
+	}
 	romansh = { # Medieval Romansh
 		graphical_cultures = { southerngfx mediterraneangfx }
 		alternate_start = {
