@@ -7,6 +7,8 @@ brithenig_archers_form;Found the Brithenig Archers.;;;;;;;;;;;;;x
 brithenig_archers_form_desc;Found the Brithenig Archers, the finest marksmen money can buy.;;;;;;;;;;;;;x;;;;;;;;;;;;;x
 alexanders_companions_form;Found Alexanders Companions;;;;;;;;;;;;;x
 alexanders_companions_form_desc;Found Alexanders Companions, it is said that they follow Alexanders The Great's Companion Calvary's customs religiously;;;;;;;;;;;;;x
+# --------------------------------------------------------------------------------------------------------------------------------------
+#Mercenary Chronicles
 CHRONICLE_aenglis_band; and founded the great Aenglis Band.;;;;;;;;;;;;;x
 CHRONICLE_brithenig_archers; and founded the marksmen, Brithenig Archers.;;;;;;;;;;;;;x
 CHRONICLE_alexanders_companions; and founded the "quick as a wink" horsemen, Alexander's Companions.;;;;;;;;;;;;;x
