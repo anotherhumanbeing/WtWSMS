@@ -2687,6 +2687,43 @@ latin = {
         mat_grm_name_chance = 60
         mother_name_chance = 10
     }
+        latin_khitan = { # (currently WIP) Cathayan from this mega campaign: https://forum.paradoxplaza.com/forum/index.php?threads/without-honor-a-khitan-image-heavy-megacampaign.1028216/
+	         graphical_culture = { latingfx frankishgfx }
+		 alternate_start = {
+			OR = {
+				year >= 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		
+		color = { 0.0 0.51 1.02 }
+		
+		male_names =
+		Aboi_Aboji Adam Ampreye_Humphrey Amedeye_Amadeus Anselm Ardru_Arthur Aeyesander_Alexander Bishe_Bishe Biguete Charles_Charles Cemrid_Kermit Censeye_Kenzai Ceyeryn_Kiran Chetak Dashi Edru_Idris Elfreye_Alfred Eyelyn_Alan Jeyn_Jing Jev_Geoffrey Johanneye_John Khan
+		Macis_Mace Marcus_Marcus Miceyel_Michael Nicoleye_Nicholas Othair_Uther Petreye_Peter Robert_Robert Roger_Roger Wolila Tarin Tomas_Thomas Victor
+		
+		female_names = {
+            Aenor_Eleanor Alodie_Alodia Estefenete_Stephanie Adele_Adela Adalmode_Almodis Adelaide_Adelaide Adelinde_Adelinde Agathe_Agatha Agnès_Agnes Aléarde Alais_Alice Almodis_Almodis Amelie_Amelia Anne_Anna Antoinette_Antonia Arsinde_Arsenda
+            Aude_Oda Aurengarde_Aurengarde Béatrix_Beatrice Beneoite_Benedicta Berengare_Berengaria Berthe_Bertha Blanche_Blanche Bonne_Bonne Bourgogne_Burgundy Bourguigne_Burgundy Cecilie_Cecilia Catherine_Catherine Carlotte_Charlotte Constance_Constantia
+            Dionise_Dionysia Dolz_Douce Echive Eglantine Elisabeth_Elisabeth Emma_Emma Ermengarde_Ermengarde Ermessinde_Ermesinda Esclarmonde_Esclarmunda Euphrosine_Euphrosyne Eustacie_Eustacia Eve_Eva Gerberge_Gerberga Gisele_Gisela Willaumete_Guillaumette
+            Eloise_Eloise Helvis_Helvis Hodierne_Hodierne Ida_Ida Hildegarde_Hildegard Jeanne_Joan Judith_Judith Julienne_Juliana Mafalda Mahaut_Mahaut Margaret_Margaret Marie_Maria Marthe_Martha Mascarose_Mascarosa Mathilde_Matilda Melisende_Melisende
+            Melusine_Melusine Peronelle_Peronella Perinne_Perinne Pernete_Pernette Plaisance_Placentia Raimonde Solange_Sollemnia Sophie_Sophia Stéfanie_Stephania Sibylle_Sibylla Tiburge_Tiburge Valence_Valentia Violande_Yolanda
+        }
+        from_dynasty_prefix = "eye "
+        grammar_transform = french
+
+        modifier = default_culture_modifier
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 60
+        mat_grf_name_chance = 10
+        father_name_chance = 10
+     
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 60
+        mother_name_chance = 10
+    }
 	gallo_romance = { #Galleis, non-Frankish Gallo-Romance
         graphical_cultures = { romangfx celticgfx }
 		alternate_start = {
