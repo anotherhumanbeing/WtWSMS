@@ -306,6 +306,9 @@ RETTYPE_CUL_ENG =
 		OR = {
 			culture = english
 			culture = welsh
+			culture = aenglis
+			culture = british_romance
+			culture = brithenig
 		}
 	}
 	
@@ -403,6 +406,8 @@ RETTYPE_CUL_FRANK_NOR_GER =
 			culture = norman
 			culture = german
 			culture = breton
+			culture = gallo_romance
+			culture = latin_khitan
 		}
 	}
 	
@@ -445,6 +450,8 @@ RETTYPE_CUL_ITA =
 			culture = venetian
 			culture = sicilian
 			culture = maltanesse
+			culture = dalmatian
+			culture = romansh
 			culture_group = torrean_group
 		}
 	}
@@ -584,6 +591,8 @@ RETTYPE_CUL_BERBER =
 	potential = {
 		is_nomadic = no
 		culture = maghreb_arabic
+		culture = arreyanu
+		culture = african_romance
 	}
 
 	modifier = {
